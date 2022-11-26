@@ -1,0 +1,566 @@
+/* all common css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.mr{
+    margin-right: 0 !important;
+}
+
+.pb{
+    padding-bottom: 0 !important;
+}
+
+ul,li{
+    list-style-type: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+@font-face{
+    src: url(../myriad-pro-cufonfonts/MYRIADPRO-BOLD.OTF);
+    font-family: 'myriadpro-bold';
+}
+
+@font-face{
+    src: url(../myriad-pro-cufonfonts/MyriadPro-Light.otf);
+    font-family: 'myriadpro-light';
+}
+
+@font-face{
+    src: url(../myriad-pro-cufonfonts/MYRIADPRO-REGULAR.OTF);
+    font-family: 'myriadpro-regular';
+}
+
+@font-face{
+    src: url(../myriad-pro-cufonfonts/MYRIADPRO-SEMIBOLD.OTF);
+    font-family: 'myriadpro-semibold';
+}
+/* all common css end */
+
+
+/* header part start */
+.navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	color: #fff;
+    font-size: 13px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    transition: .4s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #00e0d0;
+}
+/* header part end */
+
+/* banner part start */
+#banner_part{
+
+    background: url(../images/top-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner_overlay{
+    padding-top: 230px;
+    padding-bottom: 205px;
+    background:  linear-gradient(to right, rgba(9, 5, 47, 0.85), rgba(49, 29, 94, 0.85));
+}
+
+.banner_text h1{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+}
+
+.banner_text h1::after{
+    position: absolute;
+    height: 1px;
+    width: 50px;
+    background: #00e0d0;
+    content: "";
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+}
+
+.banner_text p{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    padding: 50px 182px;
+}
+
+.common_btn a{
+    color: #00e0d0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Hammersmith One', sans-serif;
+    text-transform: uppercase;
+    padding: 14px 15px;
+    border: 1px solid #00e0d0;
+    border-radius: 4px;
+}
+/* banner part end */
+
+
+/* story part start */
+#story_part{
+    padding: 70px 0;
+}
+
+.story_img{
+    text-align: right;
+}
+
+.common_heading h3{
+    color: #413d4b;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.story_text p{
+    color: #413d4b;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+}
+
+.snd_p{
+    padding: 30px 0;
+}
+/* story part end */
+
+
+/* video part start */
+#video_banner{
+
+    background: url(../images/video-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.video_banner_overlay{
+    padding: 200px 0;
+    background:  linear-gradient(to right, rgba(9, 5, 47, 0.85), rgba(49, 29, 94, 0.85));
+}
+
+.play_btn_text{
+    text-align: center;
+}
+
+.play_text h4{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 34px;
+}
+/* video part end */
+
+/* expertise part start */
+#expert_part{
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+.common_text h3{
+    color: #413d4b;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.common_text p{
+    color: #2f2d35;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+}
+
+.common_text p::after{
+    position: absolute;
+    height: 1px;
+    width: 50px;
+    background: #c6c4c9;
+    content: "";
+    left: 50%;
+    bottom: -18px;
+    transform: translateX(-50%);
+}
+
+.expertise_icon_text{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.expertise_text2 h3{
+    color: #413d4b;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding: 35px 25px;
+}
+
+.expertise_text2 p{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 90px;
+    line-height: 20px;
+}
+/* expertise part end */
+
+/* team part start */
+#team_part{
+
+    background: url(../images/team-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.team_part_overlay{
+    padding: 70px 0;
+    background:  linear-gradient(to right, rgba(9, 5, 47, 0.85), rgba(49, 29, 94, 0.85));
+}
+
+.team_text{
+    text-align: center;
+}
+
+.team_text h3{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.team_text p{
+    color: #f9f9f9;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+}
+
+.team_text p::after{
+    position: absolute;
+    height: 1px;
+    width: 50px;
+    background: #655c80;
+    content: "";
+    left: 50%;
+    bottom: -18px;
+    transform: translateX(-50%);
+}
+
+.team_picture_text{
+    margin-top: 50px;
+}
+
+.team_img_text{
+    padding: 25px 60px;
+    border: 1px solid #77768b;
+}
+
+.team_img_text h3{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+}
+
+.team_img_text p{
+    color: #fafafa;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.team_lst_p{
+    padding-top: 70px;
+}
+
+.team_lst_p p{
+    color: #f3f3f3;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 25px;
+}
+/* team part end */
+
+/* works part start */
+#works_part{
+    padding: 70px 0;
+}
+
+.work_btns{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.work_btns a{
+    padding: 10px;
+    border: 1px solid #dddddd;
+    color: #413d4b;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'myriadpro-regular';
+    margin-right: 5px;
+    text-transform: capitalize;
+}
+
+.work_images{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.work_img{
+    width: 100%;
+}
+
+.row2{
+    padding-bottom: 70px;
+}
+/* works part end */
+
+/* galadriel part start */
+#galadriel_part{
+
+    background: url(../images/galadriel-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.galadriel_hover{
+    padding-top: 120px;
+    padding-bottom: 130px;
+    background:  linear-gradient(to right, rgba(9, 5, 47, 0.85), rgba(49, 29, 94, 0.85));
+}
+
+.galadriel_text i{
+    font-size: 40px;
+}
+
+.galadriel_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    line-height: 26px;
+    padding: 0 297px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+
+.galadriel_text h3{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.galadriel_text h4{
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+/* galadriel part end */
+
+
+/* mail and logo part start */
+#mail_and_logo_part{
+    padding: 70px 0;
+}
+
+.mail_logo_cmn_heading h3{
+    color: #413d4b;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 35px;
+}
+
+.f_input{
+    border: 1px solid #e5e5e5;
+    border-radius: 0px;
+}
+
+.f_input::placeholder{
+    color: #413d4b;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sub_btn{
+    padding: 14px 29px;
+    border-radius: 4px;
+    color: #00e0d0;
+    border: 1px solid #00e0d0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Hammersmith One', sans-serif;
+    text-transform: uppercase;
+    background: transparent;
+}
+/* mail and logo part end */
+
+/* last part start */
+#last_part{
+
+    background: url(../images/last-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.last_part_overly{
+    padding: 70px 0;
+    background:  linear-gradient(to right, rgba(9, 5, 47, 0.85), rgba(49, 29, 94, 0.85));
+}
+
+.lst_logo_and_txt p{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+    padding-right: 79px;
+    padding-top: 25px;
+}
+
+.lst_logo_and_txt_a a{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 20px;
+    padding-top: 75px;
+    text-transform: uppercase;
+}
+
+.lst_cmn_head h4{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.last_head_icon_text i{
+    font-size: 20px;
+    color: #fff;
+}
+
+.last_head_icon_text{
+    padding-bottom: 20px;
+}
+
+.last_head_icon_text p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+    padding-left: 15px;
+    padding-right: 93px;
+}
+
+.lf_input{
+    background: transparent;
+    padding: 15px;
+    border-radius: 0px;
+    border: 1px solid #9e98b0;
+    width: 250px;
+    color: #d9d8de;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.teli a{
+    margin-left: 10px;
+    padding: 10px 20px;
+    background: rgba(160, 153, 179, 0.5);
+    font-size: 25px;
+    color: #2f2d35;
+}
+
+.social_part{
+    padding-top: 25px;
+    display: flex;
+}
+
+.social_item{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: relative;
+    margin-right: 10px;
+}
+
+.social_item i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.copyright p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 70px;
+    padding-left: 100px;
+}
+/* last part end */
